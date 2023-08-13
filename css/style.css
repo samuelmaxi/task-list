@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.date-hours-area {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 56rem;
+  height: 4.375rem;
+  flex-shrink: 0;
+  border-radius: 0rem 0rem 0.625rem 0.625rem;
+  background: #6E103C;
+  color: #E2E2E2;
+  text-align: center;
+  font-family: Imprima;
+  font-size: 1.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.data-hours {
+  color: #E2E2E2;
+  text-align: center;
+  font-family: Imprima;
+  font-size: 1.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title-area {
+  margin-top: 12.44rem;
+}
+
+.title {
+  color: #000;
+  text-align: center;
+  font-family: Indie Flower;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  height: 3rem;
+}
+
+.retangle-title {
+  width: 19.5rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  background: #BA3472;
+  box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.input-area {
+  margin: 4.31rem;
+  display: flex;
+  margin-right: 45.25rem;
+  margin-left: 35.25rem;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-task {
+  width: 19.5rem;
+  height: 3.0625rem;
+  flex-shrink: 0;
+  border-radius: 0.3125rem;
+  border: 2px solid #D887AD;
+  outline: 0;
+  font-size: 1.5625rem;
+  font-family: Imprima;
+  padding-left: 1rem;
+}
+
+.name-task:focus {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: 2px solid #b13870;
+}
+
+.name-task:focus~label {
+  display: none;
+}
+
+.name-task:focus~label {
+  .text-input {
+    display: none;
+  }
+}
+
+
+.text-input {
+  position: relative;
+  left: 15rem;
+  display: flex;
+  width: 14.625rem;
+  height: 1.75rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: rgba(0, 0, 0, 0.25);
+  text-align: center;
+  font-family: Imprima;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 2rem;
+  z-index: 1;
+  bottom: 16px;
+
+  transition: opacity 0.3s ease;
+}
+
+.chekbox {
+  margin-left: 1.88rem;
+  width: 2.4375rem;
+  height: 2.4375rem;
+  flex-shrink: 0;
+  border-radius: 0.125rem;
+  border: 2px solid #D887AD;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #FFF;
+  outline: 0;
+}
+
+
+
+.chekbox:hover {
+  background: #f0eded;
+}
+
+.chekbox:active {
+  background: #d1cece;
+}
