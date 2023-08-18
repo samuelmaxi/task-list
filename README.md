@@ -122,7 +122,3 @@ Contributions are welcome! If you'd like to contribute improvements, bug fixes, 
 ## License
 
 This project is licensed under the [MIT License](LICENSE), which means you are free to use, modify, and distribute it as per your needs.
-
----
-
-I hope this README provides a clear overview of your To-Do List project and encourages other developers to try it out and contribute. Remember to update this README with more specific details and instructions, if needed, as the project evolves. Good luck!
