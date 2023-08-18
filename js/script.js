@@ -57,3 +57,25 @@ bntDelete.addEventListener('click', function () {
 
 })
 
+// Code add data
+
+const clock = setInterval(function time() {
+  const monName = new Array("January", "February", "March", "April", "May", "June", "July", "August", "Setembro", "September", "October", "November", "December");
+
+  const time = new Date();
+
+  // english letters referring to dates
+  let letter = ''
+  if (time.getDate() === 1) {
+    letter = 'str';
+  } else if (time.getDate() === 2) {
+    letter = 'nd';
+  } else if (time.getDate() === 3) {
+    letter = 'rd';
+  } else {
+    letter = 'th';
+  }
+
+  document.querySelector('.data-hours').innerHTML = `${monName[time.getMonth()]} ${time.getDate()}${letter}, ${time.getFullYear()}. Local time: ${time.toLocaleTimeString('pt-BR')}`;
+
+})
